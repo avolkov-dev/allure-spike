@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://avolkov-dev.github.io/allure-spike",
+  "buildOrder" : 9,
+  "buildName" : "GitHub Actions Run #1224946994",
+  "buildUrl" : "https://github.com/avolkov-dev/allure-spike/actions/runs/1224946994",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://avolkov-dev.github.io/allure-spike/9/"
+} ]
