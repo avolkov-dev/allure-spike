@@ -1,0 +1,51 @@
+name: generate allure report
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Generate-Allure-Report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Starts containers
+        run: |
+            cd ./test/infra
+            docker-compose up -d
+        
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
+      - name: Test
+        run: dotnet test --logger "trx"  --results-directory "allure-results"
+        continue-on-error: true
+        
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+
+      - name: Cleanup containers
+        if: true # force to run even if previous steps failed
+        run: |
+          cd ./test/infra
+          docker-compose rm -s -v -f
