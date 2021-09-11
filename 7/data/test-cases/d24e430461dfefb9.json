@@ -1,0 +1,41 @@
+{
+  "uid" : "d24e430461dfefb9",
+  "name" : "allure_spike.MyBiasTest.Run",
+  "fullName" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.Run",
+  "historyId" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.Run",
+  "time" : {
+    "start" : 1631386868193,
+    "stop" : 1631386868193,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "package",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d24e430461dfefb9.json",
+  "parameterValues" : [ ]
+}

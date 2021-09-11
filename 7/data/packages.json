@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "allure_spike.MyBiasTest",
+    "children" : [ {
+      "name" : "allure_spike.MyBiasTest.Run",
+      "uid" : "d24e430461dfefb9",
+      "parentUid" : "f60098b0d41885e193ed220cefb80208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631386868193,
+        "stop" : 1631386868193,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "allure_spike.MyBiasTest"
+  } ],
+  "name" : "packages"
+}

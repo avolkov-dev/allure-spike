@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 7,
+  "reportUrl" : "https://avolkov-dev.github.io/allure-spike/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]

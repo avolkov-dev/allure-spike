@@ -1,0 +1,22 @@
+{
+  "allure_spike.MyBiasTest.allure_spike.MyBiasTest.Run" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d24e430461dfefb9",
+      "reportUrl" : "https://avolkov-dev.github.io/allure-spike/7//#testresult/d24e430461dfefb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631386868193,
+        "stop" : 1631386868193,
+        "duration" : 0
+      }
+    } ]
+  }
+}
