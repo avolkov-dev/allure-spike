@@ -1,0 +1,47 @@
+{
+  "uid" : "819c8f5a34b4a7a2",
+  "name" : "allure_spike.MyBiasTest.ExecuteSql",
+  "fullName" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.ExecuteSql",
+  "historyId" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.ExecuteSql",
+  "time" : {
+    "start" : 1631534225338,
+    "stop" : 1631534225338,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Npgsql.NpgsqlException : Exception while connecting\n---- System.Net.Sockets.SocketException : Connection refused",
+  "statusTrace" : "   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) in Npgsql.dll:token 0x6000431+0x1b7\n   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in Npgsql.dll:token 0x6000430+0xa1\n   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in Npgsql.dll:token 0x600042c+0x9e\n   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in Npgsql.dll:token 0x60001fd+0xd9\n   at Npgsql.ConnectorPool.<>c__DisplayClass38_0.<<Rent>g__RentAsync|0>d.MoveNext() in Npgsql.dll:token 0x60010cb+0x92\n--- End of stack trace from previous location ---\n   at Npgsql.NpgsqlConnection.<>c__DisplayClass41_0.<<Open>g__OpenAsync|0>d.MoveNext() in Npgsql.dll:token 0x60010d1+0x236\n--- End of stack trace from previous location ---\n   at Npgsql.NpgsqlConnection.Open() in Npgsql.dll:token 0x60002d3+0x12\n   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1082\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection) in System.Private.CoreLib.dll:token 0x6006ba8+0x71\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source) in System.Linq.dll:token 0x600011b+0x14\n   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 725\n   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 652\n   at allure_spike.MyBiasTest.ExecuteSql() in /home/runner/work/allure-spike/allure-spike/src/MyBiasTest.cs:line 22\n----- Inner Stack Trace -----\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) in Npgsql.dll:token 0x6000431+0x14c",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "package",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "819c8f5a34b4a7a2.json",
+  "parameterValues" : [ ]
+}
