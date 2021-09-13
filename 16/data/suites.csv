@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Sep 13 12:33:58 GMT 2021","Mon Sep 13 12:33:58 GMT 2021","0","","allure_spike.MyBiasTest","","allure_spike.MyBiasTest","","allure_spike.MyBiasTest.Run",""
+"passed","Mon Sep 13 12:33:59 GMT 2021","Mon Sep 13 12:33:59 GMT 2021","0","","allure_spike.MyBiasTest","","allure_spike.MyBiasTest","","allure_spike.MyBiasTest.ExecuteSql",""

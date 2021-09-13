@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "allure_spike.MyBiasTest",
+    "children" : [ {
+      "name" : "allure_spike.MyBiasTest.Run",
+      "uid" : "d365fbe4f50bc705",
+      "parentUid" : "f60098b0d41885e193ed220cefb80208",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631536438924,
+        "stop" : 1631536438924,
+        "duration" : 0
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allure_spike.MyBiasTest.ExecuteSql",
+      "uid" : "ce536c135135c675",
+      "parentUid" : "f60098b0d41885e193ed220cefb80208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631536439407,
+        "stop" : 1631536439407,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "allure_spike.MyBiasTest"
+  } ],
+  "name" : "packages"
+}

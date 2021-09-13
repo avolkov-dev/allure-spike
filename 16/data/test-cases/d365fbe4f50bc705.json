@@ -1,0 +1,133 @@
+{
+  "uid" : "d365fbe4f50bc705",
+  "name" : "allure_spike.MyBiasTest.Run",
+  "fullName" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.Run",
+  "historyId" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.Run",
+  "time" : {
+    "start" : 1631536438924,
+    "stop" : 1631536438924,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Assert.True() Failure\nExpected: True\nActual:   False",
+  "statusTrace" : "   at allure_spike.MyBiasTest.Run() in /home/runner/work/allure-spike/allure-spike/src/MyBiasTest.cs:line 12",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "package",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "abcdf286fa8a17bb",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/15//#testresult/abcdf286fa8a17bb",
+        "status" : "failed",
+        "statusDetails" : "Assert.True() Failure\nExpected: True\nActual:   False",
+        "time" : {
+          "start" : 1631534225250,
+          "stop" : 1631534225250,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "45fc744c6219337f",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/13//#testresult/45fc744c6219337f",
+        "status" : "failed",
+        "statusDetails" : "Assert.True() Failure\nExpected: True\nActual:   False",
+        "time" : {
+          "start" : 1631388232405,
+          "stop" : 1631388232405,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "186f972f5544fb9c",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/12//#testresult/186f972f5544fb9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631388183871,
+          "stop" : 1631388183871,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c540cc7676a0a96",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/11//#testresult/c540cc7676a0a96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631387858109,
+          "stop" : 1631387858109,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b39dafe378e27c55",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/10//#testresult/b39dafe378e27c55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631387486015,
+          "stop" : 1631387486015,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2e9a4b0f0d0c1781",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/9//#testresult/2e9a4b0f0d0c1781",
+        "status" : "failed",
+        "statusDetails" : "Assert.True() Failure\nExpected: True\nActual:   False",
+        "time" : {
+          "start" : 1631387406085,
+          "stop" : 1631387406085,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "23ee032fdcfc3537",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/8//#testresult/23ee032fdcfc3537",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631387314959,
+          "stop" : 1631387314959,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d24e430461dfefb9",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/7//#testresult/d24e430461dfefb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631386868193,
+          "stop" : 1631386868193,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d365fbe4f50bc705.json",
+  "parameterValues" : [ ]
+}
