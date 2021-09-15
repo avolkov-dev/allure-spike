@@ -23,6 +23,13 @@ jobs:
       - name: Test
         run: dotnet test --logger "trx"  --results-directory "allure-results"
         continue-on-error: true
+
+      - name: Parse Trx files
+        uses: NasAmin/trx-parser@v0.1
+        id: trx-parser
+        with:
+          TRX_PATH: ${{ github.workspace }}/allure-results 
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }
         
       - name: Get Allure history
         uses: actions/checkout@v2
