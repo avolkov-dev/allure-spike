@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7746f21241f72a39",
+  "name" : "allure_spike.MyBiasTest.Run",
+  "time" : {
+    "start" : 1631720422620,
+    "stop" : 1631720422620,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e510f28d5d0509ea",
+  "name" : "allure_spike.MyBiasTest.ExecuteSql",
+  "time" : {
+    "start" : 1631720423014,
+    "stop" : 1631720423014,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
