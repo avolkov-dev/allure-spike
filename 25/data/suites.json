@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "allure_spike.MyBiasTest",
+    "children" : [ {
+      "name" : "allure_spike.MyBiasTest.Run",
+      "uid" : "b6584ca178f05df2",
+      "parentUid" : "5d4563e407b568bc20d8f6c3fd1db70c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631721577232,
+        "stop" : 1631721577232,
+        "duration" : 0
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "allure_spike.MyBiasTest.ExecuteSql",
+      "uid" : "67607f09fe2fec09",
+      "parentUid" : "5d4563e407b568bc20d8f6c3fd1db70c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631721577619,
+        "stop" : 1631721577619,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5d4563e407b568bc20d8f6c3fd1db70c"
+  } ],
+  "name" : "suites"
+}

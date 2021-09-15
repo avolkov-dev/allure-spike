@@ -1,0 +1,80 @@
+{
+  "uid" : "67607f09fe2fec09",
+  "name" : "allure_spike.MyBiasTest.ExecuteSql",
+  "fullName" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.ExecuteSql",
+  "historyId" : "allure_spike.MyBiasTest.allure_spike.MyBiasTest.ExecuteSql",
+  "time" : {
+    "start" : 1631721577619,
+    "stop" : 1631721577619,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "package",
+    "value" : "allure_spike.MyBiasTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "trx"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e510f28d5d0509ea",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/22//#testresult/e510f28d5d0509ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631720423014,
+          "stop" : 1631720423014,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ce536c135135c675",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/16//#testresult/ce536c135135c675",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631536439407,
+          "stop" : 1631536439407,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "819c8f5a34b4a7a2",
+        "reportUrl" : "https://avolkov-dev.github.io/allure-spike/15//#testresult/819c8f5a34b4a7a2",
+        "status" : "failed",
+        "statusDetails" : "Npgsql.NpgsqlException : Exception while connecting\n---- System.Net.Sockets.SocketException : Connection refused",
+        "time" : {
+          "start" : 1631534225338,
+          "stop" : 1631534225338,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "67607f09fe2fec09.json",
+  "parameterValues" : [ ]
+}
