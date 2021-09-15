@@ -30,6 +30,9 @@ jobs:
           name: Tests
           path: allure-results/*.trx
           reporter: dotnet-trx
+          list-suites: 'failed'
+          list-tests: 'failed'
+          fail-on-error: 'false'
         
       - name: Get Allure history
         uses: actions/checkout@v2
